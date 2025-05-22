@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌤️Weather App🌤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <div class="search-section">
+      <input type="text" id="locationInput" placeholder="Enter city or zipcode" />
+      <div class="input-container">
+        <label class="name-label">©FahmiM</label>
+        <button onclick="getWeather()">Check Weather!</button>
+      </div>
+      
+    </div>
+
+    <div class="weather-info">
+      <h2 id="cityName"></h2>
+      <h1 id="temperature"></h1>
+      <p id="description"></p>
+      <p id="funnyMessage"></p>
+    </div>
+
+    <div class="forecast" id="forecastContainer"></div>
+
+    <div class="info-footer">
+      <p>💡 <strong>PM Accelerator:</strong>The Product Manager Accelerator Program is designed to support PM professionals through every stage of their careers. </p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
