@@ -47,13 +47,13 @@ function getWeather() {
 
 function updateBackground(temp) {
   if (temp <= 15) {
-    document.body.style.backgroundImage = "url('images/cold.jpg')";
+    document.body.style.backgroundImage = "url('cold.jpg')";
   } else if (temp <= 20) {
-    document.body.style.backgroundImage = "url('images/cool.jpg')";
+    document.body.style.backgroundImage = "url('cool.jpg')";
   } else if (temp <= 35 ) {
-    document.body.style.backgroundImage = "url('images/warm.jpg')";
+    document.body.style.backgroundImage = "url('warm.jpg')";
   } else {
-    document.body.style.backgroundImage = "url('images/hot.jpeg')";
+    document.body.style.backgroundImage = "url('hot.jpeg')";
   }
 }
 
