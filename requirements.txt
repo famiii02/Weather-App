@@ -7,7 +7,7 @@ git remote add origin https://github.com/yourusername/weather-app.git
 git push -u origin main
 
 
-Fahmi M[Document title]
+Fahmi M
 
 
 
